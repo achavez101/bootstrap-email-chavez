@@ -1,0 +1,16 @@
+.col1, .col2, .col3 {
+    border: 2px solid black;
+}
+.col1 {
+    background-color: #DDF6F6;
+}
+.col2, .col3 {
+    background-color: #D9D9D9;
+}
+.inbox {
+    font-weight: bold;
+}
+a.inbox{
+    color: #000;
+    
+}

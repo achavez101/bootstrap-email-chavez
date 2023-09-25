@@ -7,10 +7,26 @@
 .col2, .col3 {
     background-color: #D9D9D9;
 }
-.inbox {
+.button-search {
+    border: none;
+}
+.inbox1 {
     font-weight: bold;
 }
-a.inbox{
+a.inbox, a.inbox1{
     color: #000;
-    
+    text-decoration: none;
 }
+.card {
+    padding: 0.5em;
+}
+.card-body1, .card-body2{
+    background-color: #DDF6F6;
+}
+.card-body3 {
+    background-color: #FDFFA7;
+}
+.to, .from, .email-body1, .email-body2 {
+    text-align: left;
+}
+

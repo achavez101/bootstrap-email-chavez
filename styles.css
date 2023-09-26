@@ -1,6 +1,13 @@
-header {
+nav, header {
     background-color: #FDFFA7;
 }
+#offcanvasExample{
+    width: 300px;
+}
+#offcanvasScrolling{
+    width: 300px;
+}
+
 .col1, .col2, .col3 {
     border: 2px solid black;
 }

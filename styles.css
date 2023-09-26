@@ -13,10 +13,7 @@
 .inbox1 {
     font-weight: bold;
 }
-a.inbox, a.inbox1{
-    color: #000;
-    text-decoration: none;
-}
+
 .card {
     padding: 0.5em;
 }

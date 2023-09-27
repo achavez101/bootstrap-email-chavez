@@ -23,20 +23,14 @@
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-body">
               <div class="dropdown mt-3">
-                <button class="btn btn-secondary dropdown-toggle p-2" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"><i class="fas fa-folder"></i> 
-                  Options
+                <button class="btn btn-sm btn-secondary dropdown-toggle py-2 mb-5 m-1 p-2" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                  Options 
+                  <i class="fas fa-folder"></i> 
                 </button>
-                 <!-- search icon -->
-                 <button class="d-md-none d-lg-block d-none d-sm-block">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path
-                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
-                    </path>
-                  </svg>
-                </button>
+                 
                 <!-- drop down folder -->
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <button class="btn btn-outline-secondary w-70 m-2 fw-bold">Inbox (3)</button>
+                  <button class="btn btn-outline-secondary w-70 m-1 fw-bold">Inbox (3)</button>
                   <button class="btn btn-outline-secondary w-70 m-1 ">Important</h4></button>
                   <button class="btn btn-outline-secondary w-50 m-1">Sent</button>
                   <button class="btn btn-outline-secondary w-50 m-1">Drafts</button>
@@ -45,7 +39,7 @@
                 </ul>
               </div>
               <!-- compose button -->
-              <button type="button" class="btn btn-secondary py-2">
+              <button type="button" class="btn btn-secondary mb-5 py-1 m-3 p-3">
                 Compose
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square"
                   viewBox="0 0 16 16">
@@ -57,16 +51,23 @@
                   </path>
                 </svg>
               </button>
+              <!-- search icon -->
+              <button class="btn btn-secondary d-none d-sm-block d-md-none py-2 p-2 mb-5 m-3">Search
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
+                  </path>
+                </svg>
+              </button>
             </div>
-            
-          
           </div>
-          
+        </div>
+      </div>
     </nav>
     
     <!-- column start -->
-    <div class="container-fluid text-center vh-100">
-      <div class="row" w-100 h-100>
+    <div class="container-fluid text-center">
+      <div class="row vh-100 vw-100">
         <!-- column 1 -->
         <div class="col1 col-md-12 col-lg-3 py-2 d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
           <!-- had d-lg-block -->
@@ -96,8 +97,8 @@
         <!-- column 2 -->
         <div class="col2 col-12 col-lg-3 col-md-6">
           <!-- input / search -->
-          <button class="button-search d-sm-none d-md-block d-none d-sm-block">
-            <div class="input-group py-3">        
+          <button class="button-search d-sm-none d-md-block d-none d-sm-block col-12">
+            <div class="input-group py-3 ">        
               <span class="input-group-text" id="basic-addon1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
                   viewBox="0 0 16 16">

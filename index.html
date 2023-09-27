@@ -13,58 +13,68 @@
     <title>Document</title>
   </head> 
   <body>
+  <div class="container-fluid">
     <header class="d-flex justify-content-center">
-      <span class="fs-1">Email</span>
+      <span class="fs-1">Stain Busters Email</span>
     </header>
-    <nav class="navbar navbar-expand navbar-expand-lg navbar-light nav-container d-flex">
-      <div class="container-fluid justify-content-center">
-        <!--folder section-->
-        <div class="d-lg-none d-xl-none">
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-body">
-              <div class="dropdown mt-3">
-                <button class="btn btn-sm btn-secondary dropdown-toggle py-2 mb-5 m-1 p-2" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                  Options 
-                  <i class="fas fa-folder"></i> 
-                </button>
-                 
-                <!-- drop down folder -->
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <button class="btn btn-outline-secondary w-70 m-1 fw-bold">Inbox (3)</button>
-                  <button class="btn btn-outline-secondary w-70 m-1 ">Important</h4></button>
-                  <button class="btn btn-outline-secondary w-50 m-1">Sent</button>
-                  <button class="btn btn-outline-secondary w-50 m-1">Drafts</button>
-                  <button class="btn btn-outline-secondary w-50 m-1">Spam</button>
-                  <button class="btn btn-outline-secondary w-50 m-1">Trash</button>
-                </ul>
-              </div>
-              <!-- compose button -->
-              <button type="button" class="btn btn-secondary mb-5 py-1 m-3 p-3">
-                Compose
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z">
-                  </path>
-                  <path fill-rule="evenodd"
-                    d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z">
-                  </path>
-                </svg>
+    <nav class="navbar navbar-expand navbar-expand-lg nav-container d-flex flex-wrap justify-content-center">
+      <a class="laundry justify-content-center" href="#">
+        <img src="./LaundryLogo.png" alt="Stain Busters Business Logo">
+      </a>
+      <!--folder section-->
+      <div class="container-fluid d-xl-none d-flex flex-wrap">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-body d-flex flex-wrap justify-content-center">
+            <div class="dropdown">
+              <!-- mt-3 -->
+              <button class="btn btn-sm btn-secondary dropdown-toggle py-2 mb-5 m-3 p-2" type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown">
+                <!-- py-2 mb-5 m-1 p-2" -->
+                Options
+                <i class="fas fa-folder"></i>
               </button>
-              <!-- search icon -->
-              <button class="btn btn-secondary d-none d-sm-block d-md-none py-2 p-2 mb-5 m-3">Search
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                  <path
-                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
-                  </path>
-                </svg>
-              </button>
+  
+              <!-- drop down folder -->
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="btn btn-outline-secondary w-70 m-1 fw-bold">Inbox (3)</button>
+                <button class="btn btn-outline-secondary w-70 m-1 ">Important</h4></button>
+                <button class="btn btn-outline-secondary w-50 m-1">Sent</button>
+                <button class="btn btn-outline-secondary w-50 m-1">Drafts</button>
+                <button class="btn btn-outline-secondary w-50 m-1">Spam</button>
+                <button class="btn btn-outline-secondary w-50 m-1">Trash</button>
+              </ul>
             </div>
+            <!-- compose button -->
+            <button type="button" class="btn btn-secondary mb-5 py-1 m-3 p-3">
+              <!--  mb-5 py-1 m-3 p-3 -->
+              Compose
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-pencil-square" viewBox="0 0 16 16">
+                <path
+                  d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z">
+                </path>
+                <path fill-rule="evenodd"
+                  d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z">
+                </path>
+              </svg>
+            </button>
+            <!-- search icon -->
+            <button class="btn btn-secondary d-sm-block d-md-none py-2 p-2 mb-5 m-3">Search
+              <!-- py-2 p-2 mb-5 m-3 -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
+                </path>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
     </nav>
-    
+  </div>
+
     <!-- column start -->
     <div class="container-fluid text-center">
       <div class="row vh-100 vw-100">

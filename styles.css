@@ -2,8 +2,12 @@
     height: 100vh;
     width: 100vw;
 }
-nav, header {
+.container-fluid, nav, header {
     background-color: #FDFFA7;
+}
+img {
+    height: 10vh;
+    border: 5px solid red;
 }
 #offcanvasExample{
     width: 300px;

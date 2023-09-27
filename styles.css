@@ -6,7 +6,7 @@
     background-color: #FDFFA7;
 }
 img {
-    height: 10vh;
+    height: 25vh;
     border: 5px solid red;
 }
 #offcanvasExample{
@@ -30,7 +30,6 @@ img {
 .inbox1 {
     font-weight: bold;
 }
-
 .card {
     padding: 0.5em;
 }
@@ -39,6 +38,11 @@ img {
 }
 .card-body3 {
     background-color: #FDFFA7;
+}
+preview {
+    display: flex;
+    align-items: start;
+    padding: 1vh;
 }
 .to, .from, .email-body1, .email-body2 {
     text-align: left;
